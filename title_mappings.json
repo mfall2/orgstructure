@@ -1,0 +1,218 @@
+[
+  {
+    "pattern": "(?i)sp[ée]cialiste qualit[ée] senior",
+    "replacement": "Senior Quality Specialist"
+  },
+  {
+    "pattern": "(?i)sp[ée]cialiste qualit[ée]",
+    "replacement": "Quality Specialist"
+  },
+  {
+    "pattern": "(?i)responsable processus et m[ée]thodes",
+    "replacement": "Process & Methods Manager"
+  },
+  {
+    "pattern": "(?i)responsable s[ée]curit[ée] syst[èe]me d'information",
+    "replacement": "Information System Security Manager"
+  },
+  {
+    "pattern": "(?i)responsable syst[èe]mes? d'information",
+    "replacement": "Information Systems Manager"
+  },
+  {
+    "pattern": "(?i)responsable [ée]quipe cloud",
+    "replacement": "Cloud Team Manager"
+  },
+  {
+    "pattern": "(?i)responsable qualit[ée]",
+    "replacement": "Quality Manager"
+  },
+  {
+    "pattern": "(?i)responsable/d[ée]veloppeur in",
+    "replacement": "IN Manager/Developer"
+  },
+  {
+    "pattern": "(?i)directeur(\\(trice\\))? des op[ée]rations",
+    "replacement": "Operations Director"
+  },
+  {
+    "pattern": "(?i)directeur(\\(trice\\))? de p[ôo]les?",
+    "replacement": "Division Director"
+  },
+  {
+    "pattern": "(?i)directeur(\\(trice\\))? g[ée]n[ée]ral(e)?",
+    "replacement": "General Manager"
+  },
+  {
+    "pattern": "(?i)pr[ée]sident(e)?",
+    "replacement": "President"
+  },
+  {
+    "pattern": "(?i)coache? agile & qualit[ée]",
+    "replacement": "Agile & Quality Coach"
+  },
+  {
+    "pattern": "(?i)charg[ée]e?(\\(e\\))? de param[ée]trage l[ée]gal",
+    "replacement": "Legal Configuration Officer"
+  },
+  {
+    "pattern": "(?i)charg[ée]e?(\\(e\\))? d'[ée]tudes?(\\(s\\))?",
+    "replacement": "Study Officer"
+  },
+  {
+    "pattern": "(?i)charg[ée]e?(\\(e\\))? qualit[ée]",
+    "replacement": "Quality Officer"
+  },
+  {
+    "pattern": "(?i)technicien(\\(ne\\))? des op[ée]rations cloud confirm[ée](\\(e\\))?",
+    "replacement": "Senior Cloud Operations Technician"
+  },
+  {
+    "pattern": "(?i)technicien(\\(ne\\))? des op[ée]rations cloud",
+    "replacement": "Cloud Operations Technician"
+  },
+  {
+    "pattern": "(?i)administrateur(\\(trice\\))? syst[èe]mes et r[ée]seaux",
+    "replacement": "Systems & Networks Administrator"
+  },
+  {
+    "pattern": "(?i)administrateur(\\(trice\\))? syst[èe]mes?",
+    "replacement": "Systems Administrator"
+  },
+  {
+    "pattern": "(?i)concepteur d[ée]velop+eur",
+    "replacement": "Designer Developer"
+  },
+  {
+    "pattern": "(?i)int[ée]grateur(\\(trice\\))? web",
+    "replacement": "Web Integrator"
+  },
+  {
+    "pattern": "(?i)commercial(e|\\(e\\))? s[ée]dentaire",
+    "replacement": "Inside Sales Representative"
+  },
+  {
+    "pattern": "(?i)lead d[ée]veloppeur c# \\.net",
+    "replacement": "Lead C# .Net Developer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? devops senior",
+    "replacement": "Senior DevOps Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? devops",
+    "replacement": "DevOps Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? automatisation de tests",
+    "replacement": "Test Automation Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? m[ée]thodes & syst[èe]mes",
+    "replacement": "Methods & Systems Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? syst[èe]mes et r[ée]seaux",
+    "replacement": "Systems & Networks Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? s[ée]curit[ée] syst[èe]me d'information",
+    "replacement": "Information System Security Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? [ée]tudes et d[ée]veloppement",
+    "replacement": "Studies & Development Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? observabilit[ée]",
+    "replacement": "Observability Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? cloud",
+    "replacement": "Cloud Engineer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? de? d[ée]veloppement",
+    "replacement": "Development Engineer"
+  },
+  {
+    "pattern": "(?i)(d[ée]velop+eur(\\(euse\\)|\\(se\\))?|d[ée]veloppeuse) s[ée]nior",
+    "replacement": "Senior Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]velop+eur expert",
+    "replacement": "Expert Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]velop+eur confirm[ée]",
+    "replacement": "Confirmed Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]velop+eur gr",
+    "replacement": "GR Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]velop+eur - prestataire",
+    "replacement": "Contractor Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]veloppeur backend c# \\.net",
+    "replacement": "Backend C# .Net Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]veloppeur salesforce",
+    "replacement": "Salesforce Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]veloppeur \\.net",
+    "replacement": ".Net Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]veloppeur delphi",
+    "replacement": "Delphi Developer"
+  },
+  {
+    "pattern": "(?i)d[ée]veloppeur pn",
+    "replacement": "PN Developer"
+  },
+  {
+    "pattern": "(?i)r[ée]dacteur(\\(trice\\))? technique",
+    "replacement": "Technical Writer"
+  },
+  {
+    "pattern": "(?i)consultant(\\(e\\))? expert observabilit[ée]",
+    "replacement": "Expert Observability Consultant"
+  },
+  {
+    "pattern": "(?i)consultant(\\(e\\))? observabilit[ée] senior",
+    "replacement": "Senior Observability Consultant"
+  },
+  {
+    "pattern": "(?i)consultant(\\(e\\))? observabilit[ée]",
+    "replacement": "Observability Consultant"
+  },
+  {
+    "pattern": "(?i)consultant(\\(e\\))? cybers[ée]curit[ée]",
+    "replacement": "Cybersecurity Consultant"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))? r[ée]seau",
+    "replacement": "Network Engineer"
+  },
+  {
+    "pattern": "(?i)consultant(\\(e\\))? d[ée]ploiement",
+    "replacement": "Deployment Consultant"
+  },
+  {
+    "pattern": "(?i)[ée]quipe s[ée]curit[ée]",
+    "replacement": "Security Team"
+  },
+  {
+    "pattern": "(?i)d[ée]velop+eur(\\(euse\\)|\\(se\\))?|d[ée]veloppeuse|d[ée]velopper|developer",
+    "replacement": "Developer"
+  },
+  {
+    "pattern": "(?i)ing[ée]nieur(\\(e\\))?",
+    "replacement": "Engineer"
+  }
+]

@@ -1,8 +1,8 @@
-"""Ports (interfaces abstraites) d'accès aux données."""
+"""Ports (interfaces abstraites) d'accès aux données et au nettoyage."""
 
 from abc import ABC, abstractmethod
 from typing import List
-from .models import User
+from .models import User, OrgNode
 
 
 class UserRepository(ABC):
@@ -21,3 +21,11 @@ class UserRepository(ABC):
 
         Raises: ExternalServiceError.
         """
+
+
+class HierarchyCleaner(ABC):
+    """Contrat de nettoyage de la hiérarchie après extraction."""
+
+    @abstractmethod
+    def clean(self, nodes: List[OrgNode]) -> List[OrgNode]:
+        """Nettoie et normalise les nœuds de la hiérarchie."""

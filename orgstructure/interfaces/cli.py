@@ -4,7 +4,7 @@ import argparse
 
 
 def parse_args() -> argparse.Namespace:
-    """Parse les arguments CLI : manager_name (positional) et --output."""
+    """Parse les arguments CLI : manager_name, --output et --mappings."""
     parser = argparse.ArgumentParser(
         description="Exporte la hiérarchie d'un manager Entra ID en CSV.",
     )
@@ -15,5 +15,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output", default="direct_reports.csv",
         help="Fichier CSV de sortie (défaut : direct_reports.csv).",
+    )
+    parser.add_argument(
+        "--mappings", default="title_mappings.json",
+        help="Fichier JSON des règles de normalisation des titres (défaut : title_mappings.json).",
     )
     return parser.parse_args()

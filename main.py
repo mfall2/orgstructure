@@ -1,8 +1,10 @@
 """Point d'entrée — usage : python main.py "Nom Du Manager" --output resultats.csv"""
 
 import sys
+from pathlib import Path
 
 from orgstructure.infrastructure.graph.repository import GraphUserRepository
+from orgstructure.infrastructure.cleaners.composite_cleaner import CompositeCleaner
 from orgstructure.domain.services import OrganizationService
 from orgstructure.domain.exceptions import UserNotFoundError, ExternalServiceError
 from orgstructure.infrastructure.exporters.csv_exporter import CsvExporter
@@ -22,6 +24,9 @@ def main() -> None:
     except ExternalServiceError as exc:
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(2)
+
+    cleaner = CompositeCleaner(Path(args.mappings))
+    hierarchy = cleaner.clean(hierarchy)
 
     try:
         CsvExporter.export(hierarchy, args.output)
